@@ -1,0 +1,16 @@
+.clicker-container {
+    width: 120px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+}
+
+.controllers-container {
+    background-color: #DDDDDD;
+    cursor: pointer;
+}
+
+.values-container {
+    padding: 10px;
+    font-size: 18px;
+}
