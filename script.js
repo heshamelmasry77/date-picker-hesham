@@ -1,5 +1,14 @@
-var moment = require('moment');
+(function () {
 
-var nowTime = moment().format('MMMM Do YYYY, h:mm:ss a');
+    var controllers = document.getElementsByClassName('controllers-container');
+    for (var i = 0; i < controllers.length; i++) {
+        controllers[i].addEventListener('click', function () {
+            alert(this.id);
+        });
+    }
+    var nowTime = moment().format('MMMM Do YYYY, h:mm:ss a');
 
-console.log(nowTime);
+    alert(nowTime)
+})();
+
+
