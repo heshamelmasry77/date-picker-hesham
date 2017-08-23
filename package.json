@@ -1,0 +1,22 @@
+{
+  "name": "date-picker-hesham",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heshamelmasry77/date-picker-hesham.git"
+  },
+  "author": "hesham el masry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heshamelmasry77/date-picker-hesham/issues"
+  },
+  "homepage": "https://github.com/heshamelmasry77/date-picker-hesham#readme",
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
