@@ -53,5 +53,5 @@ function showSelection() {
     console.log(accurateMonth);
     var day = document.getElementById("day").value;
 
-    document.getElementById("selected-date-container").innerHTML = "Selected date is : " + year + " : " + accurateMonth + " : " + day;
+    document.getElementById("selected-date-container").innerHTML = "Selected date is : " + year + " / " + accurateMonth + " / " + day;
 }
