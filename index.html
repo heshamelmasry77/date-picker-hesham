@@ -7,9 +7,10 @@
 </head>
 <body>
 <select id="year"></select>
-<select id="month" onchange="GetDay()"></select>
-<select id="day"></select>
+<select id="month" onchange="getDay()"></select>
+<select id="day" onchange="showSelection()"></select>
 
+<p id="selected-date-container"></p>
 
 <script src="moment.js"></script>
 <script src="script.js"></script>
